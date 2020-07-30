@@ -47,5 +47,5 @@ function convertToRoman(num) {
     return result;
    }
    
-   console.log(convertToRoman(3999));
+   console.log(convertToRoman(1979));
    

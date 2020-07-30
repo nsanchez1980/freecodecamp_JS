@@ -45,4 +45,4 @@ function primeFactors(n){
     return result;
 }
 
-console.log(primeFactors(987654321))
+console.log(primeFactors(988787865498321))
