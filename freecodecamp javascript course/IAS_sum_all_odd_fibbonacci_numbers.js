@@ -1,4 +1,6 @@
 function sumFibs(num) {
+    if(n < 0)  return NaN;
+    if(n == 0) return 0;
     let sum = 0;
     let n1 = 1;
     let n2 = 0;
@@ -10,7 +12,6 @@ function sumFibs(num) {
         }
         n1 = n2;
         n2 = n3;
-        console.log(sum);
     }
     return sum;
   }
